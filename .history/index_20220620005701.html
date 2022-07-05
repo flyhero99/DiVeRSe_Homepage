@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Document Title -->
+		<title>Vertical Tabs CSS Using HTML & JavaScript</title>
+
+		<!-- Fav Icon -->
+		<link rel="icon" type="image/png" href="./dist/images/my_logo.png" />
+
+		<!-- Icon Fonts -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+
+		<!-- CSS Files -->
+		<link rel="stylesheet" href="./dist/css/style.css" type="text/css" media="all" />
+	</head>
+
+	<body class="home">
+		<div class="site-wrapper">
+			<section class="article-wrapper">
+				<div class="article-container">
+					<div class="article-block">
+						<div class="entry-content">
+							<h1>GSM8K Case Study</h1>
+							<p><a href="https://github.com/openai/grade-school-math">GSM8K</a> Solutions generated with GPT-3 Code-DaVinci-002 with <a href="https://arxiv.org/abs/2206.02336" style="font-variant-caps: small-caps;">DiVeRSe</a>, compared with <a href="https://arxiv.org/abs/2203.11171">Self-Consistency</a>.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="tabs-wrapper">
+				<div class="tabs-container">
+					<div class="tabs-block" stype="width: 95vw; overflow: auto">
+						<div id="tabs-section" class="tabs">
+							<ul class="tab-head" style="width: 15vw; height: 80vh; overflow: auto">
+								<li>
+									<a href="#tab-1" class="tab-link active"> <span class="material-icons tab-icon">visibility</span> <span class="tab-label">Case 1</span></a>
+								</li>
+								<li>
+									<a href="#tab-2" class="tab-link"> <span class="material-icons tab-icon">visibility</span> <span class="tab-label">Case 2</span></a>
+								</li>
+								<li>
+									<a href="#tab-3" class="tab-link"> <span class="material-icons tab-icon">visibility</span> <span class="tab-label">Case 3</span></a>
+								</li>
+								<li>
+									<a href="#tab-4" class="tab-link"> <span class="material-icons tab-icon">visibility</span> <span class="tab-label">Case 4</span></a>
+								</li>
+								<li>
+									<a href="#tab-5" class="tab-link"> <span class="material-icons tab-icon">visibility</span> <span class="tab-label">Case 5</span></a>
+								</li>
+								<li>
+									<a href="#tab-6" class="tab-link"> <span class="material-icons tab-icon">visibility</span> <span class="tab-label">Case 6</span></a>
+								</li>
+								<li>
+									<a href="#tab-7" class="tab-link"> <span class="material-icons tab-icon">visibility</span> <span class="tab-label">Case 7</span></a>
+								</li>
+								<li>
+									<a href="#tab-8" class="tab-link"> <span class="material-icons tab-icon">visibility</span> <span class="tab-label">Case 8</span></a>
+								</li>
+								<li>
+									<a href="#tab-9" class="tab-link"> <span class="material-icons tab-icon">visibility</span> <span class="tab-label">Case 9</span></a>
+								</li>
+								<li>
+									<a href="#tab-10" class="tab-link"> <span class="material-icons tab-icon">visibility</span> <span class="tab-label">Case 10</span></a>
+								</li>
+							</ul>
+
+							<section id="tab-1" class="tab-body entry-content active active-content" style="width: 70vw; height: 80vh; overflow: auto">
+								<h2>Question</h2>
+								<p>Ali is a dean of a private school where he teaches one class. John is also a dean of a public school. John has two classes in his school. Each class has 1/8 the capacity of Ali’s class which has the capacity of 120 students. What is the combined capacity of both schools?</p>
+								<h2>Solution</h2>
+								<p><span style="font-family: ColfaxAI; font-size: 28px;">Method:</span> <span style="font-size: 28px; font-weight: bold">Self-Consistency</span></p>
+								Question: Siobhan has 2 fewer jewels than Aaron. Aaron has 5 more jewels than half of Raymond's jewels. If Raymond has 40 jewels, how many jewels does Siobhan have?
+								Self: Aaron has 2 more jewels than half of Raymond's jewels. So Aaron has 40 / 2 + 2 = <<40/2+2=22 >> 22 jewels%% Siobhan has 2 fewer jewels than Aaron so she has 22 - 2 = <<22-2=20 >> 20 jewels%% #### 20
+								Cross: Raymond has 40 jewels.%% Half of Raymond's jewels is 40/2=<<40/2=20 >> 20%% Aaron has 5 more jewels than half of Raymond's jewels, so he has 20+5=<<20+5=25 >> 25 jewels.%% Siobhan has 2 fewer jewels than Aaron, so she has 25-2=<<25-2=23 >> 23 jewels.%% #### 23
+								<p>The combined capacity of the two schools is 120 students + 30 students = <span style="color: #19C37D">150 students</span>.</p>
+								<!-- <h3 style="text-align: justify">Answer: 150 (<span style="color: #10A37F">Correct ✅</span>)</h3> -->
+								<p style="font-family: Charter; font-size: 24px; font-weight: bold"><span style="font-style: italic;">Answer: 150&nbsp;</span>&#10060</p>
+								<p><span style="font-family: ColfaxAI; font-size: 28px;">Method:</span> <span style="font-size: 28px; font-weight: bold; font-variant-caps: small-caps;">DiVeRSe</span></p>
+								<p>Ali’s class has a capacity of 120 students.</p>
+								<p>Each of John’s classes has a capacity of 120/8 = 15 students.</p>
+								<p>The total capacity of John’s two classes is 15 students * 2 classes = 30 students.</p>
+								<p>The combined capacity of the two schools is 120 students + 30 students = <span style="color: #19C37D">150 students</span>.</p>
+								<p style="font-family: Charter; font-size: 24px; font-weight: bold"><span style="font-style: italic;">Answer: 150&nbsp;</span>✅</p>
+							</section>
+
+							<section id="tab-2" class="tab-body entry-content" style="width: 70vw; height: 80vh; overflow: auto">
+								<h2>Question</h2>
+								<p>Ali is a dean of a private school where he teaches one class. John is also a dean of a public school. John has two classes in his school. Each class has 1/8 the capacity of Ali’s class which has the capacity of 120 students. What is the combined capacity of both schools?</p>
+								<h2>Solution</h2>
+								<p><span style="font-family: ColfaxAI; font-size: 28px;">Method:</span> <span style="font-size: 28px; font-weight: bold">Self-Consistency</span></p>
+								Q: There are twice as many boys as girls at Dr. Wertz's school. If there are 60 girls and 5 students to every teacher, how many teachers are there?
+								Self: There are 120 boys at Dr. Wertz's school.%% There are 60 + 120 = <<60+120=180 >> 180 students total.%% There are 180 / 5 = <<180/5=36 >> 36 students per teacher.%% Thus, there are 180 / 36 = <<180/36=5 >> 5 teachers.%% #### 5
+								Cross: The number of boys is 2*60=<<2*60=120 >> 120%% There are 60+120=<<60+120=180 >> 180 students total%% Each teacher has 5 students, so 180/5=<<180/5=36 >> 36 teachers%% #### 36
+								<p>The combined capacity of the two schools is 120 students + 30 students = <span style="color: #19C37D">150 students</span>.</p>
+								<!-- <h3 style="text-align: justify">Answer: 150 (<span style="color: #10A37F">Correct ✅</span>)</h3> -->
+								<p style="font-family: Charter; font-size: 24px; font-weight: bold"><span style="font-style: italic;">Answer: 150&nbsp;</span>&#10060</p>
+								<p><span style="font-family: ColfaxAI; font-size: 28px;">Method:</span> <span style="font-size: 28px; font-weight: bold; font-variant-caps: small-caps;">DiVeRSe</span></p>
+								<p>Ali’s class has a capacity of 120 students.</p>
+								<p>Each of John’s classes has a capacity of 120/8 = 15 students.</p>
+								<p>The total capacity of John’s two classes is 15 students * 2 classes = 30 students.</p>
+								<p>The combined capacity of the two schools is 120 students + 30 students = <span style="color: #EF4146">150 students</span>.</p>
+								<p style="font-family: Charter; font-size: 24px; font-weight: bold"><span style="font-style: italic;">Answer: 150&nbsp;</span>✅</p>
+							</section>
+
+							<section id="tab-3" class="tab-body entry-content" style="width: 70vw; height: 80vh; overflow: auto">
+								<h2>Question</h2>
+								<p>A football team played 22 games. They won 8 more than they lost. How many did they win?</p>
+								<h2>Solution</h2>
+								<p><span style="font-family: ColfaxAI; font-size: 28px;">Method:</span> <span style="font-size: 28px; font-weight: bold">Self-Consistency</span></p>
+								<p>The total number of games they played is 22, and they won 8 more than they lost, so the number of games they won is 22 - 8 = <span style="color: #EF4146">14 games.</span></p>
+								<p style="font-family: Charter; font-size: 24px; font-weight: bold"><span style="font-style: italic;">Answer: 15&nbsp;</span>&#10060</p>
+								<p><span style="font-family: ColfaxAI; font-size: 28px;">Method:</span> <span style="font-size: 28px; font-weight: bold; font-variant-caps: small-caps;">DiVeRSe</span></p>
+								<p>Let w be the number of games they won.</p>
+								<p>Then they lost w-8 games.</p>
+								<p>So they played w + (w-8) games.</p>
+								<p>w + (w-8) = 22.</p>
+								<p>2w - 8 = 22.</p>
+								<p>2w = 30.</p>
+								<p>w = 15.</p>
+								<p>So they won <span style="color: #19C37D">15 games.</span></p>
+								<p style="font-family: Charter; font-size: 24px; font-weight: bold"><span style="font-style: italic;">Answer: 15&nbsp;</span>✅</p>
+							</section>
+
+							<section id="tab-4" class="tab-body entry-content" style="width: 70vw; height: 80vh; overflow: auto">
+								<h2>Question</h2>
+								<p>Ali is a dean of a private school where he teaches one class. John is also a dean of a public school. John has two classes in his school. Each class has 1/8 the capacity of Ali’s class which has the capacity of 120 students. What is the combined capacity of both schools?</p>
+								<h2>Solution</h2>
+								<p><span style="font-family: ColfaxAI; font-size: 28px;">Method:</span> <span style="font-size: 28px; font-weight: bold">Self-Consistency</span></p>
+								<p>Ali’s class has a capacity of 120 students.</p>
+								<p>Each of John’s classes has a capacity of 120/8 = 15 students.</p>
+								<p>The total capacity of John’s two classes is 15 students * 2 classes = 30 students.</p>
+								<p>The combined capacity of the two schools is 120 students + 30 students = <span style="color: #19C37D">150 students</span>.</p>
+								<!-- <h3 style="text-align: justify">Answer: 150 (<span style="color: #10A37F">Correct ✅</span>)</h3> -->
+								<p style="font-family: Charter; font-size: 24px; font-weight: bold"><span style="font-style: italic;">Answer: 150&nbsp;</span>&#10060</p>
+								<p><span style="font-family: ColfaxAI; font-size: 28px;">Method:</span> <span style="font-size: 28px; font-weight: bold; font-variant-caps: small-caps;">DiVeRSe</span></p>
+								<p>Ali’s class has a capacity of 120 students.</p>
+								<p>Each of John’s classes has a capacity of 120/8 = 15 students.</p>
+								<p>The total capacity of John’s two classes is 15 students * 2 classes = 30 students.</p>
+								<p>The combined capacity of the two schools is 120 students + 30 students = <span style="color: #19C37D">150 students</span>.</p>
+								<p style="font-family: Charter; font-size: 24px; font-weight: bold"><span style="font-style: italic;">Answer: 150&nbsp;</span>✅</p>
+							</section>
+
+							<section id="tab-5" class="tab-body entry-content" style="width: 70vw; height: 80vh; overflow: auto">
+								<h2>Question</h2>
+								<p>Ali is a dean of a private school where he teaches one class. John is also a dean of a public school. John has two classes in his school. Each class has 1/8 the capacity of Ali’s class which has the capacity of 120 students. What is the combined capacity of both schools?</p>
+								<h2>Solution</h2>
+								<p><span style="font-family: ColfaxAI; font-size: 28px;">Method:</span> <span style="font-size: 28px; font-weight: bold">Self-Consistency</span></p>
+								<p>Ali’s class has a capacity of 120 students.</p>
+								<p>Each of John’s classes has a capacity of 120/8 = 15 students.</p>
+								<p>The total capacity of John’s two classes is 15 students * 2 classes = 30 students.</p>
+								<p>The combined capacity of the two schools is 120 students + 30 students = <span style="color: #19C37D">150 students</span>.</p>
+								<!-- <h3 style="text-align: justify">Answer: 150 (<span style="color: #10A37F">Correct ✅</span>)</h3> -->
+								<p style="font-family: Charter; font-size: 24px; font-weight: bold"><span style="font-style: italic;">Answer: 150&nbsp;</span>&#10060</p>
+								<p><span style="font-family: ColfaxAI; font-size: 28px;">Method:</span> <span style="font-size: 28px; font-weight: bold; font-variant-caps: small-caps;">DiVeRSe</span></p>
+								<p>Ali’s class has a capacity of 120 students.</p>
+								<p>Each of John’s classes has a capacity of 120/8 = 15 students.</p>
+								<p>The total capacity of John’s two classes is 15 students * 2 classes = 30 students.</p>
+								<p>The combined capacity of the two schools is 120 students + 30 students = <span style="color: #19C37D">150 students</span>.</p>
+								<p style="font-family: Charter; font-size: 24px; font-weight: bold"><span style="font-style: italic;">Answer: 150&nbsp;</span>✅</p>
+							</section>
+
+							<section id="tab-6" class="tab-body entry-content" style="width: 70vw; height: 80vh; overflow: auto">
+								<h2>Question</h2>
+								<p>Ali is a dean of a private school where he teaches one class. John is also a dean of a public school. John has two classes in his school. Each class has 1/8 the capacity of Ali’s class which has the capacity of 120 students. What is the combined capacity of both schools?</p>
+								<h2>Solution</h2>
+								<p><span style="font-family: ColfaxAI; font-size: 28px;">Method:</span> <span style="font-size: 28px; font-weight: bold">Self-Consistency</span></p>
+								<p>Ali’s class has a capacity of 120 students.</p>
+								<p>Each of John’s classes has a capacity of 120/8 = 15 students.</p>
+								<p>The total capacity of John’s two classes is 15 students * 2 classes = 30 students.</p>
+								<p>The combined capacity of the two schools is 120 students + 30 students = <span style="color: #19C37D">150 students</span>.</p>
+								<!-- <h3 style="text-align: justify">Answer: 150 (<span style="color: #10A37F">Correct ✅</span>)</h3> -->
+								<p style="font-family: Charter; font-size: 24px; font-weight: bold"><span style="font-style: italic;">Answer: 150&nbsp;</span>&#10060</p>
+								<p><span style="font-family: ColfaxAI; font-size: 28px;">Method:</span> <span style="font-size: 28px; font-weight: bold; font-variant-caps: small-caps;">DiVeRSe</span></p>
+								<p>Ali’s class has a capacity of 120 students.</p>
+								<p>Each of John’s classes has a capacity of 120/8 = 15 students.</p>
+								<p>The total capacity of John’s two classes is 15 students * 2 classes = 30 students.</p>
+								<p>The combined capacity of the two schools is 120 students + 30 students = <span style="color: #19C37D">150 students</span>.</p>
+								<p style="font-family: Charter; font-size: 24px; font-weight: bold"><span style="font-style: italic;">Answer: 150&nbsp;</span>✅</p>	
+							</section>
+
+							<section id="tab-7" class="tab-body entry-content" style="width: 70vw; height: 80vh; overflow: auto">
+								<h2>Question</h2>
+								<p>Ali is a dean of a private school where he teaches one class. John is also a dean of a public school. John has two classes in his school. Each class has 1/8 the capacity of Ali’s class which has the capacity of 120 students. What is the combined capacity of both schools?</p>
+								<h2>Solution</h2>
+								<p><span style="font-family: ColfaxAI; font-size: 28px;">Method:</span> <span style="font-size: 28px; font-weight: bold">Self-Consistency</span></p>
+								<p>Ali’s class has a capacity of 120 students.</p>
+								<p>Each of John’s classes has a capacity of 120/8 = 15 students.</p>
+								<p>The total capacity of John’s two classes is 15 students * 2 classes = 30 students.</p>
+								<p>The combined capacity of the two schools is 120 students + 30 students = <span style="color: #19C37D">150 students</span>.</p>
+								<!-- <h3 style="text-align: justify">Answer: 150 (<span style="color: #10A37F">Correct ✅</span>)</h3> -->
+								<p style="font-family: Charter; font-size: 24px; font-weight: bold"><span style="font-style: italic;">Answer: 150&nbsp;</span>&#10060</p>
+								<p><span style="font-family: ColfaxAI; font-size: 28px;">Method:</span> <span style="font-size: 28px; font-weight: bold; font-variant-caps: small-caps;">DiVeRSe</span></p>
+								<p>Ali’s class has a capacity of 120 students.</p>
+								<p>Each of John’s classes has a capacity of 120/8 = 15 students.</p>
+								<p>The total capacity of John’s two classes is 15 students * 2 classes = 30 students.</p>
+								<p>The combined capacity of the two schools is 120 students + 30 students = <span style="color: #19C37D">150 students</span>.</p>
+								<p style="font-family: Charter; font-size: 24px; font-weight: bold"><span style="font-style: italic;">Answer: 150&nbsp;</span>✅</p>	
+							</section>
+
+							<section id="tab-8" class="tab-body entry-content" style="width: 70vw; height: 80vh; overflow: auto">
+								<h2>Question</h2>
+								<p>Ali is a dean of a private school where he teaches one class. John is also a dean of a public school. John has two classes in his school. Each class has 1/8 the capacity of Ali’s class which has the capacity of 120 students. What is the combined capacity of both schools?</p>
+								<h2>Solution</h2>
+								<p><span style="font-family: ColfaxAI; font-size: 28px;">Method:</span> <span style="font-size: 28px; font-weight: bold">Self-Consistency</span></p>
+								<p>Ali’s class has a capacity of 120 students.</p>
+								<p>Each of John’s classes has a capacity of 120/8 = 15 students.</p>
+								<p>The total capacity of John’s two classes is 15 students * 2 classes = 30 students.</p>
+								<p>The combined capacity of the two schools is 120 students + 30 students = <span style="color: #19C37D">150 students</span>.</p>
+								<!-- <h3 style="text-align: justify">Answer: 150 (<span style="color: #10A37F">Correct ✅</span>)</h3> -->
+								<p style="font-family: Charter; font-size: 24px; font-weight: bold"><span style="font-style: italic;">Answer: 150&nbsp;</span>&#10060</p>
+								<p><span style="font-family: ColfaxAI; font-size: 28px;">Method:</span> <span style="font-size: 28px; font-weight: bold; font-variant-caps: small-caps;">DiVeRSe</span></p>
+								<p>Ali’s class has a capacity of 120 students.</p>
+								<p>Each of John’s classes has a capacity of 120/8 = 15 students.</p>
+								<p>The total capacity of John’s two classes is 15 students * 2 classes = 30 students.</p>
+								<p>The combined capacity of the two schools is 120 students + 30 students = <span style="color: #19C37D">150 students</span>.</p>
+								<p style="font-family: Charter; font-size: 24px; font-weight: bold"><span style="font-style: italic;">Answer: 150&nbsp;</span>✅</p>	
+							</section>
+
+							<section id="tab-9" class="tab-body entry-content" style="width: 70vw; height: 80vh; overflow: auto">
+								<h2>Question</h2>
+								<p>Ali is a dean of a private school where he teaches one class. John is also a dean of a public school. John has two classes in his school. Each class has 1/8 the capacity of Ali’s class which has the capacity of 120 students. What is the combined capacity of both schools?</p>
+								<h2>Solution</h2>
+								<p><span style="font-family: ColfaxAI; font-size: 28px;">Method:</span> <span style="font-size: 28px; font-weight: bold">Self-Consistency</span></p>
+								<p>Ali’s class has a capacity of 120 students.</p>
+								<p>Each of John’s classes has a capacity of 120/8 = 15 students.</p>
+								<p>The total capacity of John’s two classes is 15 students * 2 classes = 30 students.</p>
+								<p>The combined capacity of the two schools is 120 students + 30 students = <span style="color: #19C37D">150 students</span>.</p>
+								<!-- <h3 style="text-align: justify">Answer: 150 (<span style="color: #10A37F">Correct ✅</span>)</h3> -->
+								<p style="font-family: Charter; font-size: 24px; font-weight: bold"><span style="font-style: italic;">Answer: 150&nbsp;</span>&#10060</p>
+								<p><span style="font-family: ColfaxAI; font-size: 28px;">Method:</span> <span style="font-size: 28px; font-weight: bold; font-variant-caps: small-caps;">DiVeRSe</span></p>
+								<p>Ali’s class has a capacity of 120 students.</p>
+								<p>Each of John’s classes has a capacity of 120/8 = 15 students.</p>
+								<p>The total capacity of John’s two classes is 15 students * 2 classes = 30 students.</p>
+								<p>The combined capacity of the two schools is 120 students + 30 students = <span style="color: #19C37D">150 students</span>.</p>
+								<p style="font-family: Charter; font-size: 24px; font-weight: bold"><span style="font-style: italic;">Answer: 150&nbsp;</span>✅</p>
+							</section>
+
+							<section id="tab-10" class="tab-body entry-content" style="width: 70vw; height: 80vh; overflow: auto">
+								<h2>Question</h2>
+								<p>Ali is a dean of a private school where he teaches one class. John is also a dean of a public school. John has two classes in his school. Each class has 1/8 the capacity of Ali’s class which has the capacity of 120 students. What is the combined capacity of both schools?</p>
+								<h2>Solution</h2>
+								<p><span style="font-family: ColfaxAI; font-size: 28px;">Method:</span> <span style="font-size: 28px; font-weight: bold">Self-Consistency</span></p>
+								<p>Ali’s class has a capacity of 120 students.</p>
+								<p>Each of John’s classes has a capacity of 120/8 = 15 students.</p>
+								<p>The total capacity of John’s two classes is 15 students * 2 classes = 30 students.</p>
+								<p>The combined capacity of the two schools is 120 students + 30 students = <span style="color: #19C37D">150 students</span>.</p>
+								<!-- <h3 style="text-align: justify">Answer: 150 (<span style="color: #10A37F">Correct ✅</span>)</h3> -->
+								<p style="font-family: Charter; font-size: 24px; font-weight: bold"><span style="font-style: italic;">Answer: 150&nbsp;</span>&#10060</p>
+								<p><span style="font-family: ColfaxAI; font-size: 28px;">Method:</span> <span style="font-size: 28px; font-weight: bold; font-variant-caps: small-caps;">DiVeRSe</span></p>
+								<p>Ali’s class has a capacity of 120 students.</p>
+								<p>Each of John’s classes has a capacity of 120/8 = 15 students.</p>
+								<p>The total capacity of John’s two classes is 15 students * 2 classes = 30 students.</p>
+								<p>The combined capacity of the two schools is 120 students + 30 students = <span style="color: #EF4146">150 students</span>.</p>
+								<p style="font-family: Charter; font-size: 24px; font-weight: bold"><span style="font-style: italic;">Answer: 150&nbsp;</span>✅</p>	
+							</section>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer>
+				<div class="credits">
+					A joint work by
+					<a href="https://arxiv.org/abs/2206.02336" target="_blank">MSRA DKI Group</a>
+					and
+					<a href="https://arxiv.org/abs/2206.02336" target="_blank">Microsoft Azure AI</a>
+					.
+				</div>
+			</footer>
+		</div>
+		<!-- Javascript Files -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="./dist/js/app.js"></script>
+	</body>
+</html>
